@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Holly Han · Electrical & Computer Engineering</title>
+  <meta name="description" content="Portfolio of Holly Han, a fourth-year electrical and computer engineering student at the University of Toronto. Selected projects in hardware, software, client design, and power systems.">
+  <meta name="theme-color" content="#f3efe6">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top">
+        <span class="brand-name">Holly Han</span>
+        <span class="brand-meta">ECE · U of T</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#coursework">Coursework</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <details class="mobile-nav">
+        <summary>Menu</summary>
+        <nav aria-label="Mobile">
+          <a href="#work">Work</a>
+          <a href="#coursework">Coursework</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </details>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero wrap" id="top">
+      <div class="hero-copy">
+        <p class="kicker">Electrical &amp; Computer Engineering</p>
+        <h1>Holly <em>Han</em></h1>
+        <p class="dek">Fourth year · University of Toronto</p>
+        <p class="lead">I like circuit analysis and hands-on design, and I want that work to leave the lab and matter in a real system.</p>
+        <p class="now"><span>Now</span> Capstone on short-term load forecasting and overload response.</p>
+      </div>
+
+      <nav class="index" aria-label="Projects">
+        <p class="index-label">Selected work</p>
+        <ol>
+          <li><a href="#pipe-connection"><span>01</span> Pipe Connection</a></li>
+          <li><a href="#gps-art"><span>02</span> GPS Art</a></li>
+          <li><a href="#uv-clean"><span>03</span> UV Clean</a></li>
+          <li><a href="#load-forecasting"><span>04</span> Load Forecasting</a></li>
+        </ol>
+      </nav>
+    </section>
+
+    <section class="band" id="work">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Selected work</h2>
+          <p>Hardware, software, a client project, and a capstone still in progress.</p>
+        </div>
+
+        <div class="projects">
+          <article id="pipe-connection">
+            <p class="num">01</p>
+            <div class="project-body">
+              <h3>Pipe Connection</h3>
+              <p class="role">Puzzle game on an FPGA, with real-time control</p>
+              <p>A pipe-connection puzzle running on an FPGA, written in C. Gameplay is under real-time control, so the hardware and the software have to respond together.</p>
+              <ul class="tags" aria-label="Tools">
+                <li>FPGA</li>
+                <li>C</li>
+                <li>Real-time control</li>
+              </ul>
+            </div>
+          </article>
+
+          <article id="gps-art">
+            <p class="num">02</p>
+            <div class="project-body">
+              <h3>GPS Art</h3>
+              <p class="role">Geographic information system software</p>
+              <p>Geographic information system software written in C++. The project turns spatial data into a designed visual result.</p>
+              <ul class="tags" aria-label="Tools">
+                <li>C++</li>
+                <li>GIS</li>
+                <li>Spatial data</li>
+              </ul>
+            </div>
+          </article>
+
+          <article id="uv-clean">
+            <p class="num">03</p>
+            <div class="project-body">
+              <h3>UV Clean</h3>
+              <p class="role">Communication liaison · client-focused engineering design</p>
+              <p>Communication liaison on a client-focused design team. The role was to keep the technical work tied to the client’s problem, and to explain it clearly in writing and in person.</p>
+              <ul class="tags" aria-label="Role">
+                <li>Client design</li>
+                <li>Communication</li>
+                <li>Team liaison</li>
+              </ul>
+            </div>
+          </article>
+
+          <article id="load-forecasting">
+            <p class="num">04</p>
+            <div class="project-body">
+              <h3>Short-Term Load Forecasting and Overload Response</h3>
+              <p class="role">Capstone design project <span class="status">In progress</span></p>
+              <p>A capstone still underway: forecasting electrical load over a short horizon, and responding when that load pushes a system toward overload.</p>
+              <ul class="tags" aria-label="Area">
+                <li>Capstone</li>
+                <li>Power systems</li>
+                <li>Forecasting</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap coursework" id="coursework">
+      <div class="section-head">
+        <h2>Coursework</h2>
+        <p>A selection, not a full transcript.</p>
+      </div>
+
+      <ul class="courses">
+        <li>
+          <span class="code">ECE313</span>
+          <span class="course-name">Energy Systems and Distributed Generation</span>
+          <span class="area">Energy</span>
+        </li>
+        <li>
+          <span class="code">ECE526</span>
+          <span class="course-name">Power System Protection and Automation</span>
+          <span class="area">Power</span>
+        </li>
+        <li>
+          <span class="code">ECE297</span>
+          <span class="course-name">Communication and Design</span>
+          <span class="area">Software</span>
+        </li>
+        <li>
+          <span class="code">APS112</span>
+          <span class="course-name">Engineering Strategies and Practice II</span>
+          <span class="area">Design</span>
+        </li>
+        <li>
+          <span class="code">APS360</span>
+          <span class="course-name">Applied Fundamentals of Deep Learning</span>
+          <span class="area">Deep learning</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="band" id="about">
+      <div class="wrap about-grid">
+        <div>
+          <h2>About</h2>
+          <p class="lead">I’m a fourth-year electrical and computer engineering student at the University of Toronto. I’m enthusiastic about taking what I learn and using it where it can have an impact.</p>
+          <p>The work I like best is hands-on: circuit analysis, circuit design, and checking that a real circuit behaves the way the analysis said it would. Courses in energy systems and power-system protection, and a capstone on load forecasting, are where I am putting that to work. I also build in software when the problem needs it.</p>
+        </div>
+        <aside class="aside">
+          <p class="index-label">Outside the lab</p>
+          <ul>
+            <li>
+              <span>Tennis</span>
+              On the court.
+            </li>
+            <li>
+              <span>Classical music</span>
+              Listening.
+            </li>
+            <li>
+              <span>Piano</span>
+              A little, for fun.
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="wrap contact" id="contact">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>For graduate applications and engineering roles.</p>
+      </div>
+      <p class="contact-lead">I am happy to share a resume and more detail on any project.</p>
+      <p class="email"><a href="mailto:hollyhan04@gmail.com">hollyhan04@gmail.com</a></p>
+      <ul class="contact-points">
+        <li><a href="https://www.linkedin.com/in/chanyu-holly">LinkedIn</a></li>
+        <li><a href="https://github.com/hollyhan04">GitHub</a></li>
+      </ul>
+      <p class="where">University of Toronto · Electrical &amp; Computer Engineering · Toronto</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© <span id="year">2026</span> Holly Han</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
